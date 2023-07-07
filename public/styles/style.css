@@ -1,0 +1,98 @@
+body {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+.container {
+    background-image: url("/images/spotify-background.jpeg");
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+}
+
+  .contenedor {
+        text-decoration: none;
+        width: 700px;
+        height: 210px;
+        margin-left: 330px;
+        margin-top: 300px;
+        font-size: 20px;
+        display: inline-block;
+        padding: 5px 1px;
+        background-color: rgba(255, 255, 255, 0.8);
+  }    
+  
+
+  .search {
+    margin-left:150px;
+    margin-top: 70px;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+
+  button {
+   
+        margin-left: 260px;
+        margin-top: 10px;
+        font-size: 20px;
+        display: inline-block;
+        padding: 10px 10px;
+        color: #fff;
+        background-color:rgb(246, 79, 80);
+        text-decoration: none;
+        border: none;
+    }
+
+  
+
+  a {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #fff;
+    background-color:rgb(246, 79, 80);
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .artist {
+    padding: 20px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: rgb(60, 60, 60);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artist img {
+    max-width: 200px; 
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+
+  .album {
+    padding: 20px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: rgb(60, 60, 60);
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+   .album img {
+    max-width: 200px; 
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+ 
+  
+  

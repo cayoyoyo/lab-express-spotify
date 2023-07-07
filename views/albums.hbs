@@ -1,0 +1,11 @@
+ <link rel="stylesheet" type="text/css" href="/styles/style.css">
+ 
+ <h1>Albums for:{{artistName}}</h1>
+ 
+  {{#each albums}}
+    <div class="album">
+      <h3>{{name}}</h3>
+      <img src="{{images.[0].url}}" alt="{{name}}">
+      <a href="/tracks/{{id}}">View Tracks</a>
+    </div>
+  {{/each}}
